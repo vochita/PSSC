@@ -1,0 +1,6 @@
+E:\schoolWork\PSSC\Universitate\Universitate\obj\Release\Universitate.csprojResolveAssemblyReference.cache
+E:\schoolWork\PSSC\Universitate\Universitate\bin\Release\Universitate.exe.config
+E:\schoolWork\PSSC\Universitate\Universitate\bin\Release\Universitate.exe
+E:\schoolWork\PSSC\Universitate\Universitate\bin\Release\Universitate.pdb
+E:\schoolWork\PSSC\Universitate\Universitate\obj\Release\Universitate.exe
+E:\schoolWork\PSSC\Universitate\Universitate\obj\Release\Universitate.pdb
