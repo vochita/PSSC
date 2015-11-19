@@ -1,0 +1,6 @@
+E:\schoolWork\PSSC\AdministratieCamine\AdministratieCamine\bin\Debug\AdministratieCamine.exe.config
+E:\schoolWork\PSSC\AdministratieCamine\AdministratieCamine\obj\Debug\AdministratieCamine.csprojResolveAssemblyReference.cache
+E:\schoolWork\PSSC\AdministratieCamine\AdministratieCamine\bin\Debug\AdministratieCamine.exe
+E:\schoolWork\PSSC\AdministratieCamine\AdministratieCamine\bin\Debug\AdministratieCamine.pdb
+E:\schoolWork\PSSC\AdministratieCamine\AdministratieCamine\obj\Debug\AdministratieCamine.exe
+E:\schoolWork\PSSC\AdministratieCamine\AdministratieCamine\obj\Debug\AdministratieCamine.pdb

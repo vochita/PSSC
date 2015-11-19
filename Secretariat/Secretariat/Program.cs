@@ -68,6 +68,11 @@ namespace Secretariat
         void requestStudentifromProfesor(string comanda, string condition, string condition2);
         //copiere in tabela Secretariat toate notele corespunzatoare fiecarui student din tabela Universitateintermediere
     }
+    public interface IAddStudentsInSecretariatIntermediereByFacultate
+    {
+        void AddstudentipentrCalcurareBurse(string comanda, string condition, string condition2);
+        //copiere in tabela Secretariat toate notele corespunzatoare fiecarui student din tabela Universitateintermediere
+    }
     public class ConnectDB
     {
         protected OleDbConnection connection;
@@ -101,7 +106,9 @@ namespace Secretariat
                                 IUpdateDataInDB2Condition,
                                 IDeleteDataInDB,
                                 IDeleteDataInDB2Condition,
-                                IRequestFromUniversitateIntermediere
+                                IRequestFromUniversitateIntermediere,
+                                IAddStudentsInSecretariatIntermediereByFacultate,
+                                IAddDataInDB
     {
         private string Nume_Student { get; set; }
         private string Prenume_Student { get; set; }
@@ -117,6 +124,10 @@ namespace Secretariat
         public override bool login()
         {
             return true;
+        }
+        public void AddstudentipentrCalcurareBurse(string comanda, string condition, string condition2)
+        {
+
         }
         public void requestStudentifromProfesor(string comanda, string condition, string condition2)
         {
