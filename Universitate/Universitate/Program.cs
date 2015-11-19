@@ -89,6 +89,7 @@ namespace Universitate
     public interface IRequestFromSecretariat
     {
         void requestStudentifromSecretariat(string comanda, string condition, string condition2);
+        //copiere in tabela UniversitateIntermediere totii elevii inscrisi la materia profesorului de la secretariat
     }
 
     public class Student: User ,
@@ -375,7 +376,7 @@ namespace Universitate
         }
         static void owners()
         {
-            Console.WriteLine("PROFESOR");
+            Console.WriteLine("OWNER");
             int selector = 0;
             int maxItem = 14;
             Owner owner = new Owner();
@@ -383,7 +384,7 @@ namespace Universitate
             {
                 do
                 {
-                    Console.WriteLine("Optiuni Student\n");
+                    Console.WriteLine("Optiuni Owner\n");
                     Console.WriteLine("1-Vizualizare nivel Universitate");
                     Console.WriteLine("2-Vizualizare Nivel studenti");
                     Console.WriteLine("3-Add Date nivel Universitate");
